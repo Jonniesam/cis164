@@ -9,7 +9,7 @@ $(document).ready(() => {
 
     // Set up event handlers for links
     $("#image_list a").click(evt => {
-        // Prevent the default behavior of the link (no navigation)
+        // Prevent the default behavior of the link 
         evt.preventDefault();
 
         const link = evt.currentTarget;
